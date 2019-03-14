@@ -40,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0996B3A3223A3D88001CA6C4 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				09B7A20521F86DCC00EF43D7 /* basic_vertices_fragments.metal */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
 		09BA220521F70BF90030F677 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				09BA221121F70BFA0030F677 /* AppDelegate.swift */,
-				09B7A20521F86DCC00EF43D7 /* basic_vertices_fragments.metal */,
+				0996B3A3223A3D88001CA6C4 /* shaders */,
 				09BA221321F70BFA0030F677 /* ViewController.swift */,
 				09BA223421F7121B0030F677 /* MyView.swift */,
 				09BA221521F70BFA0030F677 /* Main.storyboard */,
